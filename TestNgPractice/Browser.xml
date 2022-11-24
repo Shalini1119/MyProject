@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="tests" thread-count="5">
+
+<test name="TestOnChrome">
+	<parameter name="NameOfBrowser" value="Chrome"></parameter>
+	<classes>
+	<class name="TestNg.parallel_Browsers"></class>
+	</classes>	
+</test>
+
+<test name="TestOnMSEdge">
+	<parameter name="NameOfBrowser" value="MicroSoft Edge"></parameter>
+	<classes>
+	<class name="TestNg.parallel_Browsers"></class>
+	</classes>
+</test>
+</suite> 

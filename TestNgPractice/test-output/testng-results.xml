@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-11-24T11:25:47 IST" name="Default suite" finished-at="2022-11-24T11:26:02 IST" duration-ms="14554">
+    <groups>
+    </groups>
+    <test started-at="2022-11-24T11:25:47 IST" name="Default test" finished-at="2022-11-24T11:26:02 IST" duration-ms="14554">
+      <class name="TestNg.Test1">
+        <test-method signature="Home_Ebay()[pri:1, instance:TestNg.Test1@1139b2f3]" started-at="2022-11-24T11:25:47 IST" name="Home_Ebay" finished-at="2022-11-24T11:25:53 IST" duration-ms="5783" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Home_Ebay -->
+        <test-method signature="Search()[pri:2, instance:TestNg.Test1@1139b2f3]" started-at="2022-11-24T11:25:53 IST" name="Search" finished-at="2022-11-24T11:25:55 IST" duration-ms="2274" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Search -->
+        <test-method signature="SelectItem()[pri:3, instance:TestNg.Test1@1139b2f3]" started-at="2022-11-24T11:25:55 IST" name="SelectItem" finished-at="2022-11-24T11:25:56 IST" duration-ms="264" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SelectItem -->
+        <test-method signature="ClickItem()[pri:4, instance:TestNg.Test1@1139b2f3]" started-at="2022-11-24T11:25:56 IST" name="ClickItem" finished-at="2022-11-24T11:26:02 IST" duration-ms="6172" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClickItem -->
+      </class> <!-- TestNg.Test1 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
