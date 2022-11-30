@@ -34,7 +34,7 @@ public class Test1 {
 		
 	}
 	
-	@Test(priority = 3)
+	@Test(priority = 3, description="Selecting an Item")
 	public void SelectItem()
 	{
 		
